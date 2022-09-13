@@ -1,4 +1,4 @@
-#include "main.h"
+ #include "main.h"
 
 /**
  * print_last_digit - Print the last digit of the
@@ -19,3 +19,5 @@ int print_last_digit(int n)
 
 	return (last_digit);
 }
+
+
