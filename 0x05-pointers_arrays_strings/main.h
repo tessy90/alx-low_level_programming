@@ -1,10 +1,18 @@
-#include "main.h"
+#include <stdio.h>
+/*
+ * File: main.h
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x05-pointer_arrays_strings directory.
+ */
 
-/**
-* reset_to_98 -> a function to update the reference of a pointer
-* @n: pointer to n to be updated
-*/
-void reset_to_98(int *n)
-{
-	*n = 98;
-}
+int _putchar(char c);
+void reset_to_98(int *n);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
